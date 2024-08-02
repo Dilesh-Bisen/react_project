@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+@keyframes slideInNav {
+    from {
+        transform: translate3d(-100%, 0, 0);
+    }
+    to {
+        transform: translate3d(0, 0, 0); 
+    }
+}
+
+.navContainer {
+    animation: slideInNav 3s ease; 
+}
+
+.navLink {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.navLink:hover {
+    background-color: #ff006a;
+    color: #0dff00 !important;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+
