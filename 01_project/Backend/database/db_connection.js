@@ -12,11 +12,3 @@ export const db_connection = () => {
         });
 };
 
-// {
-//     "first_name": "Dilesh",
-//         "last_name": "Bisen",
-//             "email": "2dileshbisen@gmail.com",
-//                 "phone": "8767964378",
-//                     "date": "02-03-2024",
-//                         "time": "11:37 AM"
-// }
