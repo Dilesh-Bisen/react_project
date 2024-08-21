@@ -27,7 +27,7 @@ The **Restaurant Registering System** is a platform designed to streamline the r
 
 ### Installation
 
-1. Clone the repository: git clone [[https://github.com/yourusername/restaurant-registering-system.git](https://github.com/Dilesh-Bisen/react_project.git)](https://github.com/Dilesh-Bisen/react_project.git)
+1. Clone the repository: git clone [https://github.com/yourusername/restaurant-registering-system.git](https://github.com/Dilesh-Bisen/react_project.git)(https://github.com/Dilesh-Bisen/react_project.git)
 2. Navigate to the project directory: cd restaurant-registering-system
 3. Install the dependencies: npm install
 4. 
