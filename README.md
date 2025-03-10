@@ -29,7 +29,7 @@ The **Restaurant Registering System** is a platform designed to streamline the r
 
 1. Clone the repository:
     ```sh
-    git clone [https://github.com/Dilesh-Bisen/react_project.git](https://github.com/Dilesh-Bisen/react_project.git)
+    git clone https://github.com/Dilesh-Bisen/react_project.git
     ```
 2. Navigate to the project directory: cd backend
 3. Install the dependencies: npm install
