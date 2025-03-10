@@ -18,7 +18,7 @@ const Reservation = () => {
         e.preventDefault();
         try {
             const { data } = await axios.post(
-                "http://localhost:5000/api/v1/reservation/send",
+                "https://restaurant-server-sable.vercel.app/api/v1/reservation/send", // Updated backend URL
                 { first_name, last_name, email, phone, date, time },
                 {
                     headers: {
@@ -31,13 +31,13 @@ const Reservation = () => {
             toast.success(data.message);
             setFirstName("");
             setLastName("");
-            setPhone(0);
+            setPhone("");
             setEmail("");
             setTime("");
             setDate("");
             navigate("/success");
         } catch (error) {
-            toast.error(error.response.data.message);
+            toast.error(error.response?.data?.message || "Reservation failed"); // Improved error handling
         }
     };
 
@@ -62,7 +62,7 @@ const Reservation = () => {
                             </div>
                             <div>
                                 <input type="email" placeholder="Email" className="email_tag" value={email} onChange={(e) => setEmail(e.target.value)} />
-                                <input type="number" placeholder="Phone" value={phone} onChange={(e) => setPhone(e.target.value)} />
+                                <input type="tel" placeholder="Phone" value={phone} onChange={(e) => setPhone(e.target.value)} /> {/* Changed to tel type */}
                             </div>
                             <button type="submit" onClick={handleReservation}>
                                 RESERVE NOW{" "}
