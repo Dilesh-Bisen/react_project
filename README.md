@@ -33,8 +33,8 @@ The **Restaurant Registering System** is a platform designed to streamline the r
    
 ## Running the Application
 1. Start the development server:
-    Frontend: cd frontend  npm run dev
-    Beckend: cd backend npm start
+    - rontend: cd frontend  npm run dev
+    - Backend: cd backend npm start
               
 3. Open your browser and navigate to http://localhost:3000 to view the application.
 
