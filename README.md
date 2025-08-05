@@ -6,11 +6,11 @@ The **Restaurant Registering System** is a platform designed to streamline the r
 
 ## Key Features
 
-- **Enhanced Data Management:** Spearheaded the development of a restaurant registration platform, resulting in a 25% improvement in data management accuracy and a significant reduction in manual entry errors.
+- **Enhanced Data Management:** Spearheaded the development of a restaurant registration platform, resulting in a improvement in data management accuracy and a significant reduction in manual entry errors.
 
-- **Responsive and Intuitive UI:** Designed a responsive and user-friendly interface that improved accessibility, leading to a 20% increase in user satisfaction and engagement.
+- **Responsive and Intuitive UI:** Designed a responsive and user-friendly interface that improved accessibility, leading to a increase in user satisfaction and engagement.
 
-- **Advanced Data Collection Forms:** Implemented detailed and structured data collection forms, which led to a 15% increase in data accuracy and completeness.
+- **Advanced Data Collection Forms:** Implemented detailed and structured data collection forms, which led to a increase in data accuracy and completeness.
 
 - **State Management with React Hooks:** Utilized React hooks for efficient and scalable state management within the application.
 
